@@ -3,10 +3,17 @@ body {
     padding: 10px;
 }
 
+header{
+    position: sticky;
+    top:0;
+    background: white;
+}
+
 nav {
     margin: 0;
     text-align: center;
     border-bottom: 1px solid #000;
+    background: white;
 }
 
 nav li {
@@ -19,7 +26,7 @@ nav a {
     font-family: Helvetica, sans-serif;
     text-decoration: none;
     color: #404040;
-    padding: 100px;
+    margin: 100px;
 }
 
 nav a:hover {
@@ -46,11 +53,13 @@ p {
 #blog {
     padding: 10px;
     margin: 10px;
+    display: flex;
+    flex-direction: column;
 }
 
 .post {
     font-family: Helvetica, sans-serif;
-    border-bottom: 1px solid #242424
+    border-bottom: 1px solid #242424;
 }
 
 table, th, td {
@@ -77,9 +86,13 @@ li {
     line-height: 1.4em;
 }
 
-img {
-    padding: 15px;
+#me {
+    float: right;
+    margin: 15px;
+    border: 1px solid black;
+    text-align: center
 }
+
 
 #contact{
     padding: 10px;
@@ -87,12 +100,14 @@ img {
 }
 
 form {
-    font-family:Helvetica, sans-serif;
+    font-family: Helvetica, sans-serif;
 }
 
 input[type=text] {
     width: 200px;
     padding: 12px 20px;
-    margin: 8px ;
-    
+    margin: 8px;
 }
+
+
+
