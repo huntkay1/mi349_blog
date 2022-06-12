@@ -1,0 +1,98 @@
+body {
+    margin: 20px;
+    padding: 10px;
+}
+
+nav {
+    margin: 0;
+    text-align: center;
+    border-bottom: 1px solid #000;
+}
+
+nav li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+
+nav a {
+    font-family: Helvetica, sans-serif;
+    text-decoration: none;
+    color: #404040;
+    padding: 100px;
+}
+
+nav a:hover {
+    color: #0571b0;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #242424;
+    font-size: 3em;
+    margin: 0;
+    text-align: center;
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #242424;
+}
+
+p {
+    line-height: 1.4em;
+}
+
+#blog {
+    padding: 10px;
+    margin: 10px;
+}
+
+.post {
+    font-family: Helvetica, sans-serif;
+    border-bottom: 1px solid #242424
+}
+
+table, th, td {
+    border: 1px solid #242424;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+}
+
+#about {
+    font-family: Helvetica, sans-serif;
+    padding: 10px;
+    margin: 10px;
+}
+
+#newsletter {
+    font-family: Helvetica, sans-serif;
+    padding: 10px;
+    margin: 10px;
+}
+
+li {
+    line-height: 1.4em;
+}
+
+img {
+    padding: 15px;
+}
+
+#contact{
+    padding: 10px;
+    margin: 10px;
+}
+
+form {
+    font-family:Helvetica, sans-serif;
+}
+
+input[type=text] {
+    width: 200px;
+    padding: 12px 20px;
+    margin: 8px ;
+    
+}
