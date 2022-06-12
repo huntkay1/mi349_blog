@@ -10,8 +10,8 @@ header{
 }
 
 nav {
-    margin: 0;
     text-align: center;
+    border-top: 1px solid #242424;
     border-bottom: 1px solid #000;
     background: white;
 }
@@ -25,19 +25,19 @@ nav li {
 nav a {
     font-family: Helvetica, sans-serif;
     text-decoration: none;
-    color: #404040;
+    color: #242424;
     margin: 100px;
 }
 
 nav a:hover {
-    color: #0571b0;
+    color: #b1bca0;
 }
 
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #242424;
-    font-size: 3em;
-    margin: 0;
+    font-size: 5em;
+    margin-top: 10px;
     text-align: center;
 }
 
